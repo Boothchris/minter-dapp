@@ -54,7 +54,7 @@ const METADATA_UPDATABLE = false; // set to false if you don't want to allow met
 const OWNER_ADDRESS = '0xF6990cE3dEF5C3888F3B4D91d1556b9Fc5bb6a88';
 const TREASURY_ADDRESS = '0xF6990cE3dEF5C3888F3B4D91d1556b9Fc5bb6a88';
 const MAX_SUPPLY = 1001; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = .001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 100; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
@@ -69,7 +69,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ["0xF6990cE3dEF5C3888F3B4D91d1556b9Fc5bb6a88"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0xD2e2AC7691D7037B53E4bF7B4613474873cA92fe"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x1aC2e7F6a96c3e9821320eb05CD3A04691c56201"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future

@@ -1,4 +1,4 @@
-const contractAddress = "0xD2e2AC7691D7037B53E4bF7B4613474873cA92fe"; //Replace with your own contract address
+const contractAddress = "0x1aC2e7F6a96c3e9821320eb05CD3A04691c56201"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Mechanical Ape NFT Project!!";
