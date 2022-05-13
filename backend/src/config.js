@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Mechanical Apes NFT";
+const namePrefix = "Mechanical Ape NFT";
 const description = "This Is The Mechanical Apes Nft Project - Ape Head Created By Pavlovic At CC Attribution Copyright 2022- NFT Created By DNC NFT Creations";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -37,7 +37,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://opensea.io/collection/mechanical-apes-nft", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://opensea.io/collection/mechanical-ape-nft", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -48,13 +48,13 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'Mechanical Apes NFT';
+const CONTRACT_NAME = 'Mechanical Ape NFT';
 const CONTRACT_SYMBOL = 'MAS';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xF6990cE3dEF5C3888F3B4D91d1556b9Fc5bb6a88';
 const TREASURY_ADDRESS = '0xF6990cE3dEF5C3888F3B4D91d1556b9Fc5bb6a88';
 const MAX_SUPPLY = 1001; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = .001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 100; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
@@ -69,7 +69,7 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = ["0xF6990cE3dEF5C3888F3B4D91d1556b9Fc5bb6a88"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x1aC2e7F6a96c3e9821320eb05CD3A04691c56201"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0x75B2d0A88e7263114cFd6Ae96AFc4f549eB0597E"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
