@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Mechanical Ape NFT";
+const namePrefix = "Mechanical Apes NFT";
 const description = "This Is The Mechanical Apes Nft Project - Ape Head Created By Pavlovic At CC Attribution Copyright 2022- NFT Created By DNC NFT Creations";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -37,7 +37,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://opensea.io/collection/mechanical-ape-nft", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://opensea.io/collection/mechanical-apes-nft", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -48,7 +48,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'Mechanical Ape NFT';
+const CONTRACT_NAME = 'Mechanical Apes NFT';
 const CONTRACT_SYMBOL = 'MAE';
 const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xF6990cE3dEF5C3888F3B4D91d1556b9Fc5bb6a88';
