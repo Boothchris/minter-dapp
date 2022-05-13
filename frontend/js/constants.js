@@ -1,7 +1,7 @@
 const contractAddress = "0x1aC2e7F6a96c3e9821320eb05CD3A04691c56201"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the Mechanical Ape NFT Project!!";
+const welcome_h1 = "Welcome to the Mechanical Apes NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p = 'This Is The Mechanical Apes NFT Project Created By DNC NFT Creations. ';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
